@@ -212,7 +212,7 @@
       <dependency>
          <groupId>org.jboss</groupId>
          <artifactId>jboss-transaction-spi</artifactId>
-         <version>7.1.0.Final</version>
+         <version>7.6.1.Final</version>
          <exclusions>
             <exclusion>
                <groupId>org.hornetq</groupId>
@@ -256,7 +256,7 @@
                <skipTests>${skipExtraTests}</skipTests>
                <!-- ensure we don't inherit a byteman jar form any env settings -->
                <environmentVariables>
-                  <BYTEMAN_HOME></BYTEMAN_HOME>
+                  <BYTEMAN_HOME/>
                </environmentVariables>
                <systemProperties>
                   <property>
